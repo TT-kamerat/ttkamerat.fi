@@ -15,8 +15,8 @@ class HiringSection extends Component {
     const email = <p className={'hire-email'}><Glyphicon glyph='envelope'/><br/><a href="mailto:kamerat-hallitus@listmail.tut.fi">kamerat-hallitus@listmail.tut.fi</a></p>
 
     const content = {
-      [language.ENGLISH]: <div>Need a photographer for your event? Ask for an offer via email!{email}</div>,
-      [language.FINNISH]: <div>Tarvitsetko tapahtumaasi kuvaajaa? Kysy tarjousta sähköpostilla!{email}</div>
+      [language.ENGLISH]: <div>Need a photographer for your event?<br/>Ask for an offer via email!{email}</div>,
+      [language.FINNISH]: <div>Tarvitsetko tapahtumaasi kuvaajaa?<br/>Kysy tarjousta sähköpostilla!{email}</div>
     }
 
     return (
