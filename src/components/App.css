@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.root {
+  width: 100%;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.activity-glyph {
+  font-size: 3em;
+}
+
+.section {
+  padding: 5%;
+}
+
+.section-black {
+  background-color: #333;
+  color: white;
+}
+
+.section-white {
+  background-color: #FFF;
+}
+
+.section-primary {
+  background-color: #9C8367;
+  color: white;
+}
+
+hr {
+  width: 5em;
+  margin-top: 0em;
+  border-width: 3px;
+}
+
+.section-white hr {
+  border-color: #9C8367;
+}
+
+.section-white .glyphicon {
+  color: #9C8367;
+}
+
+.activity {
+  margin-top: 2em;
+}
+
+.hire-email {
+  margin-top: 2em;
+}
+
+.hire-email span {
+  font-size: 3em;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 10em;
+}
+
+.official {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.official h3 {
+  font-size: 2em;
+}
+
+.official h4 {
+  font-size: 1.3em;
+}
+
+.navbar-link {
+  transition: 0.2s;
+  color: #222;
+}
+
+.navbar-link-active {
+  color: black !important;
+  transition: 0.2s;
+}
+
+.price-header {
+  margin-top: -2em;
+}
+
+.gear-description {
+  margin-top: 2em;
+}
+
+.header {
+  background-image: url('../images/header.jpg');
+  background-position: center;
+  background-size: cover;
+  display: block;
+  width: 100%;
+}
+
+.header-content {
+  top: 10%;
+  text-align: center;
+  color: white;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 15em;
+  padding-bottom: 5em;
+}
+
+.header-content p {
+  padding-left: 30vw;
+  padding-right: 30vw;
+  font-size: 1.2em;
+  color: #EEE;
+}
+
+.header-content hr {
+  border-color: #9C8367;
+}
+
+.header-content h1 {
+  font-size: 5em;
+}
+
+.header-content h3 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.footer {
+  margin-top: 3em;
+}
+
+a {
+  color: #9C8367;
+}
+
+.section-primary a {
+  color: #337ab7;
+}
+
+@media only screen and (max-width : 768px) {
+  .price-header {
+    margin-top: 1em !important; 
+  }
+
+  .gear-description {
+    margin-top: 0em;
+  }
+
+  .header-content h1 {
+    font-size: 3em;
+  }
+  
+  .header-content h3 {
+    font-size: 1.5em;
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+  .img-circle {
+    border-radius: 50%;
+    width: 5em;
+  }
+
+  .official {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  
+  .official h3 {
+    font-size: 1.2em;
+  }
+
+  .official h4 {
+    font-size: 0.8em;
+  } 
+}
