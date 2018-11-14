@@ -1,0 +1,26 @@
+/* cantarell-regular - latin */
+@font-face {
+  font-family: 'Cantarell';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/cantarell-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Cantarell Regular'), local('Cantarell-Regular'),
+       url('../fonts/cantarell-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/cantarell-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/cantarell-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/cantarell-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/cantarell-v7-latin-regular.svg#Cantarell') format('svg'); /* Legacy iOS */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Cantarell, Arial, sans-serif;
+  width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0
+}
