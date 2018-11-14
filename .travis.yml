@@ -2,6 +2,8 @@ language: node_js
 node_js:
   - '10.0'
 
+cache: npm
+
 dist: trusty
 sudo: false
 
