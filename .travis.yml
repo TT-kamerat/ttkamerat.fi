@@ -7,7 +7,6 @@ sudo: false
 
 before_deploy:
   npm run-script build &&
-  rmdir src &&
   mv public/* .
 
 deploy:
