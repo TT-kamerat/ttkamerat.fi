@@ -5,6 +5,9 @@ node_js:
 dist: trusty
 sudo: false
 
+before_deploy:
+  npm build
+
 deploy:
   provider: pages
   skip-cleanup: true
