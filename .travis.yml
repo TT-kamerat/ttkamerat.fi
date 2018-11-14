@@ -15,3 +15,4 @@ deploy:
   bucket: "ttkamerat.fi"
   skip_cleanup: true
   local_dir: public
+  region: eu-west-1
