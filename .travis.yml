@@ -6,13 +6,12 @@ dist: trusty
 sudo: false
 
 before_deploy:
-  npm run-script build &&
-  mv public/* .
+  npm run-script build
 
 deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep-history: true
-  on:
-    branch: master
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  bucket: "S3 Bucket"
+  skip_cleanup: true
+  local_dir: public
