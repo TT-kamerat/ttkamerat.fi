@@ -12,6 +12,6 @@ deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
-  bucket: "S3 Bucket"
+  bucket: "ttkamerat.fi"
   skip_cleanup: true
   local_dir: public
