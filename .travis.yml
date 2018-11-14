@@ -7,7 +7,9 @@ sudo: false
 
 before_deploy:
   npm run-script build &&
-  mv public www
+  rm -f ./* &&
+  rmdir src &&
+  mv public/* .
 
 deploy:
   provider: pages
