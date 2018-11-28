@@ -19,3 +19,6 @@ deploy:
   local_dir: public
   region: eu-west-1
   acl: public_read
+
+notifications:
+  webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
