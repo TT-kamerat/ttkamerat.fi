@@ -4,16 +4,15 @@ import { Row, Col } from 'react-bootstrap';
 import kaisa from '../../images/board/kaisa.jpg';
 import mika from '../../images/board/mika.jpg';
 import ella from '../../images/board/ella.jpg';
-import paavo from '../../images/board/paavo.jpg';
 import eeli from '../../images/board/eeli.jpg';
 import antti from '../../images/board/antti.jpg';
 import ville from '../../images/board/ville.jpg';
-import sami from '../../images/board/sami.jpg';
 import lauri from '../../images/board/lauri.jpg';
-import konsta from '../../images/board/konsta.jpg';
-import zyrk from '../../images/board/zyrk.jpg';
-import milla from '../../images/board/milla.jpg';
 import hene from '../../images/board/hene.jpg';
+import aaro from '../../images/board/aaro.jpg';
+import jan from '../../images/board/jan.jpg';
+import jani from '../../images/board/jani.jpg';
+import markku from '../../images/board/markku.jpg';
 
 import gdpr from '../../files/jasenrekisteriseloste.pdf';
 
@@ -70,23 +69,23 @@ class BoardSection extends Component {
     const officials = {
       board : [
       {
-        id: 'kaisa',
-        img: kaisa,
-        name: 'Kaisa Tolvanen',
-        nick: 'kkaitsu',
+        id: 'ville',
+        img: ville,
+        name: 'Ville Tahvanainen',
+        nick: 'billsh',
         title: {
           [language.ENGLISH] : 'Chairman', 
           [language.FINNISH] : 'Puheenjohtaja'
         }
       },
       {	
-        id: 'mika',	
-        img: mika,
-        name: 'Mika Kiviluoma',	
-        nick: 'Kiviluoma',	
+        id: 'hene',	
+        img: hene,
+        name: 'Henrik Laakkonen',	
+        nick: 'munlempinorsuonbabar',	
         title: {	
-          [language.ENGLISH] : 'Vice Chairman', 	
-          [language.FINNISH] : 'Varapuheenjohtaja'	
+          [language.ENGLISH] : 'Vice Chairman & Secretary', 	
+          [language.FINNISH] : 'Varapuheenjohtaja & Sihteeri'	
         }	
       },      
       {
@@ -100,13 +99,13 @@ class BoardSection extends Component {
         }
       },
       {
-        id: 'paavo',
-        img: paavo,
-        name: 'Paavo Virtanen',
-        nick: 'PaaVirt',
+        id: 'aaro',
+        img: aaro,
+        name: 'Aaro Tuukkanen',
+        nick: 'rTzii',
         title: {
-          [language.ENGLISH] : 'Secretary', 
-          [language.FINNISH] : 'Sihteeri'
+          [language.ENGLISH] : 'Photo-op Coordinator', 
+          [language.FINNISH] : 'Keikkakoordinaattori'
         }
       },
       {
@@ -120,37 +119,77 @@ class BoardSection extends Component {
         }
       },
       {
-        id: 'antti',
-        img: antti,
-        name: 'Antti Kallonen',
-        nick: 'anttimoi',
+        id: 'jani',
+        img: jani,
+        name: 'Jani Oksanen',
+        nick: 'Proscribo',
         title: {
-          [language.ENGLISH] : 'Master', 
-          [language.FINNISH] : 'Isäntä'
+          [language.ENGLISH] : 'Event official', 
+          [language.FINNISH] : 'Tapahtumavastaava'
         }
       },
       {
-        id: 'ville',
-        img: ville,
-        name: 'Ville Tahvanainen',
-        nick: 'billsh',
+        id: 'juhis',
+        img: lauri,
+        name: 'Juha-Matti Hakojärvi',
+        nick: 'Juhishhh',
         title: {
-          [language.ENGLISH] : 'Contact Person', 
-          [language.FINNISH] : 'Yhteyshenkilö'
+          [language.ENGLISH] : 'Business Contact', 
+          [language.FINNISH] : 'Yritysvastaava'
         }
       }
     ],
     officials : [
       {	
-        id: 'sami',	
-        img: sami,
-        name: 'Sami Lamminen',	
-        nick: 'Lamminen',	
+        id: 'jan',	
+        img: jan,
+        name: 'Jan Heikkilä',	
+        nick: 'hjeikkilan',	
         title: {	
-          [language.ENGLISH] : 'Long in the tooth', 	
-          [language.FINNISH] : 'Vanha kähmy'	
+          [language.ENGLISH] : 'Darkroom Master', 	
+          [language.FINNISH] : 'Pimiömestari'	
         }	
       },      
+      {
+        id: 'markku',
+        img: markku,
+        name: 'woof woof',
+        nick: 'MarkkuBot',
+        title: {
+          [language.ENGLISH] : 'Markku', 
+          [language.FINNISH] : 'Markku'
+        }
+      },
+      {
+        id: 'kaisa',
+        img: kaisa,
+        name: 'Kaisa Tolvanen',
+        nick: 'kkaitsu',
+        title: {
+          [language.ENGLISH] : 'Long in the Tooth', 
+          [language.FINNISH] : 'Vanha kähmy'
+        }
+      },
+      {
+        id: 'antti',
+        img: antti,
+        name: 'Antti Kallonen',
+        nick: 'anttimoi',
+        title: {
+          [language.ENGLISH] : 'IT-wiz', 
+          [language.FINNISH] : 'IT-velho'
+        }
+      },
+      {
+        id: 'mika',
+        img: mika,
+        name: 'Mika Kiviluoma',
+        nick: 'Kiviluoma',
+        title: {
+          [language.ENGLISH] : 'Gallery Official', 
+          [language.FINNISH] : 'Galleriavastaava'
+        }
+      },
       {
         id: 'lauri',
         img: lauri,
@@ -161,46 +200,6 @@ class BoardSection extends Component {
           [language.FINNISH] : 'Kalustovastaava'
         }
       },
-      {
-        id: 'konsta',
-        img: konsta,
-        name: 'Konsta Ryösä',
-        nick: 'Kryosa',
-        title: {
-          [language.ENGLISH] : 'Film Official', 
-          [language.FINNISH] : 'Filmivastaava'
-        }
-      },
-      {
-        id: 'zyrk',
-        img: zyrk,
-        name: 'Veli-Matti Korpelainen',
-        nick: 'Zyrkki',
-        title: {
-          [language.ENGLISH] : 'RY Master', 
-          [language.FINNISH] : 'RY-mestari'
-        }
-      },
-      {
-        id: 'milla',
-        img: milla,
-        name: 'Milla Virkki',
-        nick: 'Millav',
-        title: {
-          [language.ENGLISH] : 'Annual Celebration Official', 
-          [language.FINNISH] : 'Vuosijuhlavastaava'
-        }
-      },
-      {
-        id: 'hene',
-        img: hene,
-        name: 'Henrik Laakkonen',
-        nick: 'munlempinorsuonbabar',
-        title: {
-          [language.ENGLISH] : 'Event Official', 
-          [language.FINNISH] : 'Tapahtumavastaava'
-        }
-      } 
       ]                                                 
     }
 
