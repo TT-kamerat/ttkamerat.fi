@@ -13,7 +13,7 @@ import aaro from '../../images/board/Aaro.jpg';
 import jan from '../../images/board/Jan.jpg';
 import jani from '../../images/board/Jani.jpg';
 import markku from '../../images/board/Markku.jpg';
-
+import juhis from '../../images/board/Juha_Matti.jpg';
 import gdpr from '../../files/jasenrekisteriseloste.pdf';
 
 import language from '../../languages';
@@ -130,7 +130,7 @@ class BoardSection extends Component {
       },
       {
         id: 'juhis',
-        img: lauri,
+        img: juhis,
         name: 'Juha-Matti Hakojärvi',
         nick: 'Juhishhh',
         title: {
