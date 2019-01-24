@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
 
-import kaisa from '../../images/board/kaisa.jpg';
-import mika from '../../images/board/mika.jpg';
-import ella from '../../images/board/ella.jpg';
-import eeli from '../../images/board/eeli.jpg';
-import antti from '../../images/board/antti.jpg';
-import ville from '../../images/board/ville.jpg';
-import lauri from '../../images/board/lauri.jpg';
-import hene from '../../images/board/hene.jpg';
-import aaro from '../../images/board/aaro.jpg';
-import jan from '../../images/board/jan.jpg';
-import jani from '../../images/board/jani.jpg';
-import markku from '../../images/board/markku.jpg';
+import kaisa from '../../images/board/Kaisa.jpg';
+import mika from '../../images/board/Mika.jpg';
+import ella from '../../images/board/Ella.jpg';
+import eeli from '../../images/board/Eeli.jpg';
+import antti from '../../images/board/Antti.jpg';
+import ville from '../../images/board/Ville.jpg';
+import lauri from '../../images/board/Lauri.jpg';
+import hene from '../../images/board/Henrik.jpg';
+import aaro from '../../images/board/Aaro.jpg';
+import jan from '../../images/board/Jan.jpg';
+import jani from '../../images/board/Jani.jpg';
+import markku from '../../images/board/Markku.jpg';
 
 import gdpr from '../../files/jasenrekisteriseloste.pdf';
 
