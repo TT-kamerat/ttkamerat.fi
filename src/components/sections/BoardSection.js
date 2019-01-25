@@ -31,8 +31,8 @@ class BoardSection extends Component {
   renderOfficial(official, offset=0) {
     return <Col className={'official'} mdOffset={offset*4} smOffset={offset*3} xsOffset={offset*3} md={4} sm={6} xs={6} key={official.id}>
     <img alt={official.name} className={'img-circle'} src={official.img}/>
-    <h3>{official.title[this.props.lang]}</h3>
-    <h4>{official.name}</h4>
+    <h3 className="official-title">{official.title[this.props.lang]}</h3>
+    <h4 className="official-title">{official.name}</h4>
     TG: @{official.nick}
     </Col>
   }

@@ -67,6 +67,7 @@ hr {
 .official {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+  min-height: 25em;
 }
 
 .official h3 {
@@ -164,7 +165,7 @@ a {
 }
 
 /* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 560px) {
   .img-circle {
     border-radius: 50%;
     width: 5em;
@@ -173,6 +174,7 @@ a {
   .official {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
+    min-height: 14em;
   }
   
   .official h3 {
