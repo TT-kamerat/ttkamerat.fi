@@ -48,8 +48,8 @@ class GearSection extends Component {
         gear: [
           {
             name: {
-              [language.ENGLISH]: '2pcs Canon 6D',
-              [language.FINNISH]: '2kpl Canon 6D'
+              [language.ENGLISH]: '3 pcs Canon 6D',
+              [language.FINNISH]: '3 kpl Canon 6D'
             }
           },
           {
@@ -57,6 +57,12 @@ class GearSection extends Component {
               [language.ENGLISH]: 'Canon 5D Mark II',
               [language.FINNISH]: 'Canon 5D Mark II'
             }
+          },
+          {
+            name: {
+              [language.ENGLISH]: 'Canon 200D',
+              [language.FINNISH]: 'Canon 200D'
+            }                        
           },
           {
             name: {
@@ -84,6 +90,12 @@ class GearSection extends Component {
           },
           {
             name: {
+              [language.ENGLISH]: 'Canon 70-200mm f/2.8 L IS USM I',
+              [language.FINNISH]: 'Canon 70-200mm f/2.8 L IS USM I'
+            }
+          },          
+          {
+            name: {
               [language.ENGLISH]: 'Sigma 70-200mm f/2.8 EX DG APO OS HSM',
               [language.FINNISH]: 'Sigma 70-200mm f/2.8 EX DG APO OS HSM'
             }
@@ -94,6 +106,12 @@ class GearSection extends Component {
               [language.FINNISH]: 'Canon 75-300mm f/4-5.6'
             }
           },
+          {
+            name: {
+              [language.ENGLISH]: 'Canon 17-40mm f/4 L USM',
+              [language.FINNISH]: 'Canon 17-40mm f/4 L USM'
+            }
+          },          
           {
             name: {
               [language.ENGLISH]: 'Samyang 8mm f/3.5',
@@ -120,20 +138,26 @@ class GearSection extends Component {
           },
           {
             name: {
+              [language.ENGLISH]: 'Canon 35mm f/2 IS USM',
+              [language.FINNISH]: 'Canon 35mm f/2 IS USM'
+            }
+          },          
+          {
+            name: {
               [language.ENGLISH]: 'Canon 50mm f/1.8 II',
               [language.FINNISH]: 'Canon 50mm f/1.8 II'
             }
           },
           {
             name: {
-              [language.ENGLISH]: '2pcs Canon 50mm f/1.8 STM',
-              [language.FINNISH]: '2kpl Canon 50mm f/1.8 STM'
+              [language.ENGLISH]: '2 pcs Canon 50mm f/1.8 STM',
+              [language.FINNISH]: '2 kpl Canon 50mm f/1.8 STM'
             }
           },
           {
             name: {
-              [language.ENGLISH]: 'Canon 85mm f/1.8',
-              [language.FINNISH]: 'Canon 85mm f/1.8'
+              [language.ENGLISH]: '2 pcs Canon 85mm f/1.8',
+              [language.FINNISH]: '2 kpl Canon 85mm f/1.8'
             }
           },
           {
@@ -148,6 +172,12 @@ class GearSection extends Component {
               [language.FINNISH]: 'Venäläinen peilitele 500 mm f/8'
             }
           },
+          {
+            name: {
+              [language.ENGLISH]: 'Canon EF-S 18-55 IS STM ONLY FOR CROP',
+              [language.FINNISH]: 'Canon EF-S 18-55 IS STM VAIN KROPPIKENNOON'
+            }
+          },            
           {
             name: {
               [language.ENGLISH]: 'Tamron 17-50mm f/2.8 ONLY FOR CROP',
@@ -240,8 +270,8 @@ class GearSection extends Component {
           },
           {
             name: {
-              [language.ENGLISH]: '3 pcs Yongnuo 560IV + YN560-TX C transmitter',
-              [language.FINNISH]: '3 kpl Yongnuo 560IV + YN560-TX C lähetin'
+              [language.ENGLISH]: '6 pcs Yongnuo 560IV + 2 pcs YN560-TX C transmitter',
+              [language.FINNISH]: '6 kpl Yongnuo 560IV + 2 kpl YN560-TX C lähetin'
             }
           },
           {
@@ -270,26 +300,26 @@ class GearSection extends Component {
           },
           {
             name: {
-              [language.ENGLISH]: 'White 60cm umbrella',
-              [language.FINNISH]: 'Läpiammuttava 60cm sateenvarjo'
+              [language.ENGLISH]: 'White 60 cm umbrella',
+              [language.FINNISH]: 'Läpiammuttava 60 cm sateenvarjo'
             }
           },                                        
           {
             name: {
-              [language.ENGLISH]: 'Silver 60cm umbrella',
-              [language.FINNISH]: 'Heijastava 60cm sateenvarjo'
+              [language.ENGLISH]: 'Silver 60 cm umbrella',
+              [language.FINNISH]: 'Heijastava 60 cm sateenvarjo'
             }
           },
           {
             name: {
-              [language.ENGLISH]: 'Silver 100cm umbrella',
-              [language.FINNISH]: 'Heijastava 100cm sateenvarjo'
+              [language.ENGLISH]: 'Silver 100 cm umbrella',
+              [language.FINNISH]: 'Heijastava 100 cm sateenvarjo'
             }
           },
           {
             name: {
-              [language.ENGLISH]: 'White 100cm umbrella',
-              [language.FINNISH]: 'Läpiammuttava 100cm sateenvarjo'
+              [language.ENGLISH]: 'White 100 cm umbrella',
+              [language.FINNISH]: 'Läpiammuttava 100 cm sateenvarjo'
             }
           },
           {
@@ -300,8 +330,8 @@ class GearSection extends Component {
           },
           {
             name: {
-              [language.ENGLISH]: '2x horizontal beams',
-              [language.FINNISH]: '2x vaakapuomia'
+              [language.ENGLISH]: '2 pcs horizontal beams',
+              [language.FINNISH]: '2 kpl vaakapuomia'
             }
           },
           {
@@ -326,32 +356,14 @@ class GearSection extends Component {
       },
       {
         header: {
-          [language.ENGLISH]: 'Other',
-          [language.FINNISH]: 'Muut'
+          [language.ENGLISH]: 'Stands',
+          [language.FINNISH]: 'Jalustat'
         },
         subtitle: {
           [language.ENGLISH]: '',
           [language.FINNISH]: ''
         },
-        gear: [
-          {
-            name: {
-              [language.ENGLISH]: 'CF-cards 3 kpl 8 GB, 32 GB',
-              [language.FINNISH]: 'CF-kortit 3 kpl 8 GB, 32 GB'
-            },
-          },
-          {
-            name: {
-              [language.ENGLISH]: 'SD-cards 16, 6x32 GB, 64 GB',
-              [language.FINNISH]: 'SD-kortit 16, 6x32 GB, 64 GB'
-            },
-          },
-          {            
-            name: {
-              [language.ENGLISH]: 'Spyder 3 Elite',
-              [language.FINNISH]: 'Spyder 3 Elite'
-            },
-          },
+        gear: [          
           {            
             name: {
               [language.ENGLISH]: 'Manfrotto tripod',
@@ -366,10 +378,34 @@ class GearSection extends Component {
           },
           {            
             name: {
-              [language.ENGLISH]: 'Slik lightweight tripod',
-              [language.FINNISH]: 'Slik kevyt tripod'
+              [language.ENGLISH]: 'Lightweight tripod',
+              [language.FINNISH]: 'Kevyt tripod'
+            },
+          },      
+          {            
+            name: {
+              [language.ENGLISH]: 'Velbon video tripod',
+              [language.FINNISH]: 'Velbon video tripod'
             },
           },          
+          {            
+            name: {
+              [language.ENGLISH]: 'Glidecam HD-2000',
+              [language.FINNISH]: 'Glidecam HD-2000'
+            },
+          }
+        ]
+      },                   
+      {
+        header: {
+          [language.ENGLISH]: 'Bags and cases',
+          [language.FINNISH]: 'Reput ja laukut'
+        },
+        subtitle: {
+          [language.ENGLISH]: '',
+          [language.FINNISH]: ''
+        },
+        gear: [
           {            
             name: {
               [language.ENGLISH]: 'Three different camera bags',
@@ -384,12 +420,84 @@ class GearSection extends Component {
           },
           {            
             name: {
-              [language.ENGLISH]: '5x LP-E6 -battery',
-              [language.FINNISH]: '5x LP-E6 -akku'
+              [language.ENGLISH]: 'Bigger Lowepro backpack',
+              [language.FINNISH]: 'Isompi Lowepro kamerareppu'
+            }                                                                        
+          }, 
+          {            
+            name: {
+              [language.ENGLISH]: '2 pcs hardcase',
+              [language.FINNISH]: '2 kpl hardcase'
             }                                                                        
           }
         ]
-      }                        
+      },
+      {
+        header: {
+          [language.ENGLISH]: 'Accessories',
+          [language.FINNISH]: 'Oheislaitteet'
+        },
+        subtitle: {
+          [language.ENGLISH]: '',
+          [language.FINNISH]: ''
+        },
+        gear: [
+          {            
+            name: {
+              [language.ENGLISH]: 'Spyder 3 Elite',
+              [language.FINNISH]: 'Spyder 3 Elite'
+            },
+          },
+          {            
+            name: {
+              [language.ENGLISH]: 'X-Rite i1Display Pro',
+              [language.FINNISH]: 'X-Rite i1Display Pro'
+            },
+          },
+          {            
+            name: {
+              [language.ENGLISH]: '5 pcs Loupedeck',
+              [language.FINNISH]: '5 kpl Loupedeck'
+            },
+          },        
+          {            
+            name: {
+              [language.ENGLISH]: '2 pcs Loupedeck+',
+              [language.FINNISH]: '2 kpl Loupedeck+'
+            },
+          }
+        ]
+      },
+      {
+        header: {
+          [language.ENGLISH]: 'Other',
+          [language.FINNISH]: 'Muut'
+        },
+        subtitle: {
+          [language.ENGLISH]: '',
+          [language.FINNISH]: ''
+        },
+        gear: [
+          {
+            name: {
+              [language.ENGLISH]: 'CF-cards 3 pcs 8, 32 GB',
+              [language.FINNISH]: 'CF-kortit 3 kpl 8, 32 GB'
+            },
+          },
+          {
+            name: {
+              [language.ENGLISH]: 'SD-cards 16, 6 pcs 32, 64 GB',
+              [language.FINNISH]: 'SD-kortit 16, 6 kpl 32, 64 GB'
+            },
+          },
+          {            
+            name: {
+              [language.ENGLISH]: '5 pcs LP-E6 -battery',
+              [language.FINNISH]: '5 kpl LP-E6 -akku'
+            }                                                                        
+          }
+        ]
+      }                                         
     ]
 
     const content = {
