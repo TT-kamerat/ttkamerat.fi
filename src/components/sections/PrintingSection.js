@@ -40,8 +40,8 @@ class PrintingSection extends Component {
     }
 
     const content = {
-      [language.ENGLISH]: <div><p>We have pro-grade Epson Stylus Pro 3880 photo printer for printing up to A2 sized pictures. Mark up your usage to the tab. For detailed instructions to use the printer check <a href={printing}>here</a>.</p><p>We also have a laminating machine. The machine fits up to A3 sized laminating sleeves. There is a few different sized sheets at the club to buy.</p></div>,
-      [language.FINNISH]: <div><p>Kerhollamme on käytössä ammattitason Epson Stylus Pro 3880 valokuvatulostin, jolla voit tulostaa aina A2 kokoon asti. Merkkaathan piikkilistaan tulosteesi. Tarkemmat käytännön ohjeet <a href={printing}>täältä</a>.</p><p>Lisäksi meiltä löytyy laminointikone. Koneella voi laminoida aina A3 kokoon saakka ja kerholta löytyy myytäväksi muutamaa eri arkkikokoa.</p></div>
+      [language.ENGLISH]: <div><h3>Our printer is currently not in use</h3><p>We have pro-grade Epson Stylus Pro 3880 photo printer for printing up to A2 sized pictures. Mark up your usage to the tab. For detailed instructions to use the printer check <a href={printing}>here</a>.</p><p>We also have a laminating machine. The machine fits up to A3 sized laminating sleeves. There is a few different sized sheets at the club to buy.</p></div>,
+      [language.FINNISH]: <div><h3>Tulostin ei ole toistaiseksi käytettävissä</h3><p>Kerhollamme on käytössä ammattitason Epson Stylus Pro 3880 valokuvatulostin, jolla voit tulostaa aina A2 kokoon asti. Merkkaathan piikkilistaan tulosteesi. Tarkemmat käytännön ohjeet <a href={printing}>täältä</a>.</p><p>Lisäksi meiltä löytyy laminointikone. Koneella voi laminoida aina A3 kokoon saakka ja kerholta löytyy myytäväksi muutamaa eri arkkikokoa.</p></div>
     }
 
     const prices = [

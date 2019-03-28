@@ -503,7 +503,7 @@ class GearSection extends Component {
     const content = {
       [language.ENGLISH]: <Col md={4} sm={6} xs={12} className={'gear-description'}>
       <p>All of our photography gear is located at our clubroom.</p>
-      <p>New calendar starting from 1.9.2018 <a href='https://calendar.google.com/calendar?cid=MWZnMW1ycG1mY3VnMGQ0dThqOXQxdmM0NTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'>here</a>!</p>
+      <p>You can access the calendar <a href='https://calendar.google.com/calendar?cid=MWZnMW1ycG1mY3VnMGQ0dThqOXQxdmM0NTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'>here</a>!</p>
       <p><b>Make sure items you are borrowing aren't already reserved during your period! MAXIMUM BORROWING PERIOD IS ONE WEEK. Borrowed gear must be returned before the next day 6:00 AM after reservation has ended.</b></p>
       <p>You can borrow the gear after paying the membership fee and signing the borrowing agreement. To borrow gear you need your membership card and editing permissions to the calendar. Mark all the things you borrow, your name and telephone number to the calendar.</p>
       <p>If borrowed gear is not returned on time member is given a notice and after second misuse member is banned from borrowing for one month. </p>
@@ -511,7 +511,7 @@ class GearSection extends Component {
     </Col>,
       [language.FINNISH]: <Col md={4} sm={6} xs={12} className={'gear-description'}>
         <p>Lainattavat tavarat sijaitsevat kerhohuoneellamme Tietotalon kellarissa TA006.</p>
-        <p>Uusi lainauskalenteri alkaen 1.9.2018 <a href='https://calendar.google.com/calendar?cid=MWZnMW1ycG1mY3VnMGQ0dThqOXQxdmM0NTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'>tästä</a>!</p>
+        <p>Pääset lainauskalenteriin <a href='https://calendar.google.com/calendar?cid=MWZnMW1ycG1mY3VnMGQ0dThqOXQxdmM0NTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'>tästä</a>!</p>
         <p><b>Varmista, että lainaamasi tavarat eivät ole jollain muulla lainassa sinun lainausjakson aikana. MAKSIMI LAINAUSAIKA ON VIIKKO. Tavarat on palautettava viimeistä lainapäivää seuraavana aamuna klo 6:00</b></p>
         <p>Voit lainata tavaroita maksettuasi jäsenmaksun ja allekirjoitettua lainaussopimuksen.
           Lainaamiseen tarvitset jäsenkortin ja muokkausoikeudet lainauskalenteriin jotka saat kerhon hallituksen jäseneltä, yhteystiedot sivun alaosassa.

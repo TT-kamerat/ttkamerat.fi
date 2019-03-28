@@ -42,8 +42,8 @@ class ActivitiesSection extends Component {
           [language.FINNISH]: <span>Kuvat</span>
         },
         content : {
-          [language.ENGLISH]: <span>Our picture gallery can be found at <a href='http://ttkamerat.kuvat.fi/kuvat/'>ttkamerat.kuvat.fi</a> and <a href='http://ttyy.kuvat.fi/kuvat/'>ttyy.kuvat.fi</a>.</span>,
-          [language.FINNISH]: <span>Tapahtumien kuva-albumit löydät osoitteesta <a href='http://ttkamerat.kuvat.fi/kuvat/'>ttkamerat.kuvat.fi</a> ja <a href='http://ttyy.kuvat.fi/kuvat/'>ttyy.kuvat.fi</a>.</span>
+          [language.ENGLISH]: <span>Our picture gallery can be found at <a href='http://ttkamerat.kuvat.fi/kuvat/'>ttkamerat.kuvat.fi</a>, <a href='http://ttyy.kuvat.fi/kuvat/'>ttyy.kuvat.fi</a> and <a href='http://trey.kuvat.fi/kuvat/'>trey.kuvat.fi</a>.</span>,
+          [language.FINNISH]: <span>Tapahtumien kuva-albumit löydät osoitteesta <a href='http://ttkamerat.kuvat.fi/kuvat/'>ttkamerat.kuvat.fi</a>, <a href='http://ttyy.kuvat.fi/kuvat/'>ttyy.kuvat.fi</a> ja <a href='http://trey.kuvat.fi/kuvat/'>trey.kuvat.fi</a>.</span>
         },
         glyph: 'picture'
       },
@@ -75,8 +75,8 @@ class ActivitiesSection extends Component {
           [language.FINNISH]: <span>Kerhohuone</span>
         },
         content : {
-          [language.ENGLISH]: <span>We have just moved to our new clubroom at Tietotalo cellar (TA006).</span>,
-          [language.FINNISH]: <span>Olemme juuri muuttaneet uusiin tiloihin Tietotalon kellariin osoitteeseen TA006.</span>
+          [language.ENGLISH]: <span>Our clubroom can be found at Tietotalo cellar (TA006).</span>,
+          [language.FINNISH]: <span>Kerhohuoneemme löytyy Tietotalon kellarista osoitteesta TA006.</span>
         },
         glyph: 'home'
       }                                  
