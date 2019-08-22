@@ -5,8 +5,6 @@ import language from '../../languages';
 
 import Section from './Section';
 
-import printing from '../../files/tulostusohjeet.pdf';
-
 class PrintingSection extends Component {
   constructor() {
     super();
@@ -40,8 +38,8 @@ class PrintingSection extends Component {
     }
 
     const content = {
-      [language.ENGLISH]: <div><p>We have pro-grade Canon imagePROGRAF PRO-1000 photo printer for printing up to A2 sized pictures. Mark up your usage to the tab. For detailed instructions to use the printer check <a href={printing}>here</a> or feel free to ask a board member.</p><p>We also have a laminating machine. The machine fits up to A3 sized laminating sleeves. There is a few different sized sheets at the club to buy.</p></div>,
-      [language.FINNISH]: <div><p>Kerhollamme on käytössä ammattitason Canon imagePROGRAF PRO-1000 valokuvatulostin, jolla voit tulostaa aina A2 kokoon asti. Merkkaathan piikkilistaan tulosteesi. Tarkemmat käytännön ohjeet <a href={printing}>täältä</a> tai hallitukselta.</p><p>Lisäksi meiltä löytyy laminointikone. Koneella voi laminoida aina A3 kokoon saakka ja kerholta löytyy myytäväksi muutamaa eri arkkikokoa.</p></div>
+      [language.ENGLISH]: <div><p>We have pro-grade Canon imagePROGRAF PRO-1000 photo printer for printing up to A2 sized pictures. Mark up your usage to the tab. For detailed instructions to use the printer feel free to ask a board member.</p><p>We also have a laminating machine. The machine fits up to A3 sized laminating sleeves. There is a few different sized sheets at the club to buy.</p></div>,
+      [language.FINNISH]: <div><p>Kerhollamme on käytössä ammattitason Canon imagePROGRAF PRO-1000 valokuvatulostin, jolla voit tulostaa aina A2 kokoon asti. Merkkaathan piikkilistaan tulosteesi. Tarkemmat käytännön ohjeet hallitukselta.</p><p>Lisäksi meiltä löytyy laminointikone. Koneella voi laminoida aina A3 kokoon saakka ja kerholta löytyy myytäväksi muutamaa eri arkkikokoa.</p></div>
     }
 
     const prices = [
