@@ -132,12 +132,6 @@ class GearSection extends Component {
           },
           {
             name: {
-              [language.ENGLISH]: 'Canon 28mm f/2.8',
-              [language.FINNISH]: 'Canon 28mm f/2.8'
-            }
-          },
-          {
-            name: {
               [language.ENGLISH]: 'Canon 35mm f/2 IS USM',
               [language.FINNISH]: 'Canon 35mm f/2 IS USM'
             }
@@ -444,8 +438,8 @@ class GearSection extends Component {
         gear: [
           {            
             name: {
-              [language.ENGLISH]: 'Spyder 3 Elite',
-              [language.FINNISH]: 'Spyder 3 Elite'
+              [language.ENGLISH]: 'Spyder 3 Elite (X-Rite is much better)',
+              [language.FINNISH]: 'Spyder 3 Elite (kannattaa käyttää X-Riteä)'
             },
           },
           {            
