@@ -84,6 +84,12 @@ class GearSection extends Component {
         gear: [
           {
             name: {
+              [language.ENGLISH]: 'Canon 16-35mm f/2.8 L USM II',
+              [language.FINNISH]: 'Canon 16-35mm f/2.8 L USM II'
+            }
+          },
+          {
+            name: {
               [language.ENGLISH]: 'Canon 24-105mm f/4L IS',
               [language.FINNISH]: 'Canon 24-105mm f/4L IS'
             }
