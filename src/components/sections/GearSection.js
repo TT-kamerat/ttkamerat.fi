@@ -210,8 +210,8 @@ class GearSection extends Component {
           },
           {
             name: {
-              [language.ENGLISH]: 'Canon AE-1 + 50mm f/1.8 broken :(',
-              [language.FINNISH]: 'Canon AE-1 + 50mm f/1.8 broken :('
+              [language.ENGLISH]: 'Canon AE-1 + 50mm f/1.8',
+              [language.FINNISH]: 'Canon AE-1 + 50mm f/1.8'
             }
           },
           {
@@ -240,8 +240,8 @@ class GearSection extends Component {
           },
           {
             name: {
-              [language.ENGLISH]: 'Zenza Bronica ETRsi (6x4,5) medium format + 75mm f2.8 (film holder leaks light)',
-              [language.FINNISH]: 'Zenza Bronica ETRsi (6x4,5) keskiformaatin kamera + 75mm f2.8 (filmiperä vuotaa valoa)'
+              [language.ENGLISH]: 'Zenza Bronica ETR (6x4,5) medium format + 75mm f2.8',
+              [language.FINNISH]: 'Zenza Bronica ETR (6x4,5) keskiformaatin kamera + 75mm f2.8'
             }
           }                                                                                        
         ]
