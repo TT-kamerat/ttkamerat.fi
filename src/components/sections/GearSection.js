@@ -141,7 +141,13 @@ class GearSection extends Component {
               [language.ENGLISH]: 'Canon 35mm f/2 IS USM',
               [language.FINNISH]: 'Canon 35mm f/2 IS USM'
             }
-          },          
+          },
+          {
+            name: {
+              [language.ENGLISH]: 'Canon 28mm f/2.8',
+              [language.FINNISH]: 'Canon 28mm f/2.8'	
+            }
+          },
           {
             name: {
               [language.ENGLISH]: 'Canon 50mm f/1.8 II',
