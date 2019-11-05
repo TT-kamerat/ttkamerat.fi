@@ -148,7 +148,7 @@ a {
 
 @media only screen and (max-width : 768px) {
   .price-header {
-    margin-top: 1em !important; 
+    margin-top: 1em !important;
   }
 
   .gear-description {
@@ -158,13 +158,13 @@ a {
   .header-content h1 {
     font-size: 3em;
   }
-  
+
   .header-content h3 {
     font-size: 1.5em;
   }
 }
 
-/* Extra Small Devices, Phones */ 
+/* Extra Small Devices, Phones */
 @media only screen and (max-width : 560px) {
   .img-circle {
     border-radius: 50%;
@@ -176,12 +176,27 @@ a {
     margin-bottom: 1.5em;
     min-height: 14em;
   }
-  
+
   .official h3 {
     font-size: 1.2em;
   }
 
   .official h4 {
     font-size: 0.8em;
-  } 
+  }
 }
+
+.bank-info {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bank-info-description {
+  text-align: left;
+}
+
+.bank-info-data {
+  text-align: right;
+  font-weight: bold;
+}
+
