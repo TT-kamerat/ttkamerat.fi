@@ -62,13 +62,13 @@ class GearSection extends Component {
             name: {
               [language.ENGLISH]: 'Canon 200D',
               [language.FINNISH]: 'Canon 200D'
-            }                        
+            }
           },
           {
             name: {
               [language.ENGLISH]: 'Canon 20D',
               [language.FINNISH]: 'Canon 20D'
-            }                        
+            }
           }
         ]
       },
@@ -99,7 +99,7 @@ class GearSection extends Component {
               [language.ENGLISH]: 'Canon 70-200mm f/2.8 L IS USM I',
               [language.FINNISH]: 'Canon 70-200mm f/2.8 L IS USM I'
             }
-          },          
+          },
           {
             name: {
               [language.ENGLISH]: 'Sigma 70-200mm f/2.8 EX DG APO OS HSM',
@@ -117,7 +117,7 @@ class GearSection extends Component {
               [language.ENGLISH]: 'Canon 17-40mm f/4 L USM',
               [language.FINNISH]: 'Canon 17-40mm f/4 L USM'
             }
-          },          
+          },
           {
             name: {
               [language.ENGLISH]: 'Samyang 8mm f/3.5',
@@ -145,7 +145,7 @@ class GearSection extends Component {
           {
             name: {
               [language.ENGLISH]: 'Canon 28mm f/2.8',
-              [language.FINNISH]: 'Canon 28mm f/2.8'	
+              [language.FINNISH]: 'Canon 28mm f/2.8'
             }
           },
           {
@@ -183,13 +183,13 @@ class GearSection extends Component {
               [language.ENGLISH]: 'Canon EF-S 18-55 IS STM ONLY FOR CROP',
               [language.FINNISH]: 'Canon EF-S 18-55 IS STM VAIN KROPPIKENNOON'
             }
-          },            
+          },
           {
             name: {
               [language.ENGLISH]: 'Tamron 17-50mm f/2.8 ONLY FOR CROP',
               [language.FINNISH]: 'Tamron 17-50mm f/2.8 VAIN KROPPIKENNOON'
             }
-          }                                                                     
+          }
         ]
       },
       {
@@ -249,7 +249,7 @@ class GearSection extends Component {
               [language.ENGLISH]: 'Zenza Bronica ETR (6x4,5) medium format + 75mm f2.8',
               [language.FINNISH]: 'Zenza Bronica ETR (6x4,5) keskiformaatin kamera + 75mm f2.8'
             }
-          }                                                                                        
+          }
         ]
       },
       {
@@ -291,7 +291,7 @@ class GearSection extends Component {
               [language.ENGLISH]: 'Studio flash set with 3 flashes (green case)',
               [language.FINNISH]: 'Studiosalamasetti 3 salamalla (vihreä laukku)'
             }
-          },          
+          },
           {
             name: {
               [language.ENGLISH]: '2 kpl radiotrigger + transmitter',
@@ -309,7 +309,7 @@ class GearSection extends Component {
               [language.ENGLISH]: 'White 60 cm umbrella',
               [language.FINNISH]: 'Läpiammuttava 60 cm sateenvarjo'
             }
-          },                                        
+          },
           {
             name: {
               [language.ENGLISH]: 'Silver 60 cm umbrella',
@@ -357,7 +357,7 @@ class GearSection extends Component {
               [language.ENGLISH]: 'Sand bags',
               [language.FINNISH]: 'Hiekkasäkit'
             }
-          }          
+          }
         ]
       },
       {
@@ -369,39 +369,39 @@ class GearSection extends Component {
           [language.ENGLISH]: '',
           [language.FINNISH]: ''
         },
-        gear: [          
-          {            
+        gear: [
+          {
             name: {
               [language.ENGLISH]: 'Manfrotto tripod',
               [language.FINNISH]: 'Manfrotto kolmijalka'
             },
           },
-          {            
+          {
             name: {
               [language.ENGLISH]: 'Manfrotto monopod',
               [language.FINNISH]: 'Manfrotto monopod'
             },
           },
-          {            
+          {
             name: {
               [language.ENGLISH]: 'Lightweight tripod',
               [language.FINNISH]: 'Kevyt tripod'
             },
-          },      
-          {            
+          },
+          {
             name: {
               [language.ENGLISH]: 'Velbon video tripod',
               [language.FINNISH]: 'Velbon video tripod'
             },
-          },          
-          {            
+          },
+          {
             name: {
               [language.ENGLISH]: 'Glidecam HD-2000',
               [language.FINNISH]: 'Glidecam HD-2000'
             },
           }
         ]
-      },                   
+      },
       {
         header: {
           [language.ENGLISH]: 'Bags and cases',
@@ -412,29 +412,29 @@ class GearSection extends Component {
           [language.FINNISH]: ''
         },
         gear: [
-          {            
+          {
             name: {
               [language.ENGLISH]: 'Three different camera bags',
               [language.FINNISH]: 'Kolme erikokoista kameralaukkua'
             },
           },
-          {            
+          {
             name: {
               [language.ENGLISH]: 'Lowepro backpack',
               [language.FINNISH]: 'Lowepro kamerareppu'
-            }                                                                        
+            }
           },
-          {            
+          {
             name: {
               [language.ENGLISH]: 'Bigger Lowepro backpack',
               [language.FINNISH]: 'Isompi Lowepro kamerareppu'
-            }                                                                        
-          }, 
-          {            
+            }
+          },
+          {
             name: {
               [language.ENGLISH]: '2 pcs hardcase',
               [language.FINNISH]: '2 kpl hardcase'
-            }                                                                        
+            }
           }
         ]
       },
@@ -448,25 +448,25 @@ class GearSection extends Component {
           [language.FINNISH]: ''
         },
         gear: [
-          {            
+          {
             name: {
               [language.ENGLISH]: 'Spyder 3 Elite (X-Rite is much better)',
               [language.FINNISH]: 'Spyder 3 Elite (kannattaa käyttää X-Riteä)'
             },
           },
-          {            
+          {
             name: {
               [language.ENGLISH]: 'X-Rite i1Display Pro',
               [language.FINNISH]: 'X-Rite i1Display Pro'
             },
           },
-          {            
+          {
             name: {
               [language.ENGLISH]: '5 pcs Loupedeck',
               [language.FINNISH]: '5 kpl Loupedeck'
             },
-          },        
-          {            
+          },
+          {
             name: {
               [language.ENGLISH]: '2 pcs Loupedeck+',
               [language.FINNISH]: '2 kpl Loupedeck+'
@@ -496,20 +496,20 @@ class GearSection extends Component {
               [language.FINNISH]: 'SD-kortit 16, 6 kpl 32, 64 GB'
             },
           },
-          {            
+          {
             name: {
               [language.ENGLISH]: '5 pcs LP-E6 -battery',
               [language.FINNISH]: '5 kpl LP-E6 -akku'
-            }                                                                        
+            }
           }
         ]
-      }                                         
+      }
     ]
 
     const content = {
       [language.ENGLISH]: <Col md={4} sm={6} xs={12} className={'gear-description'}>
       <p>All of our photography gear is located at our clubroom.</p>
-      <p>You can access the calendar <a href='https://calendar.google.com/calendar?cid=MWZnMW1ycG1mY3VnMGQ0dThqOXQxdmM0NTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'>here</a>!</p>
+      <p>You can access the calendar <a href='https://calendar.google.com/calendar?cid=Z3M4MGtlN291dmJpZWxkam1mZGtoa24yYzhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'>here</a>!</p>
       <p><b>Make sure items you are borrowing aren't already reserved during your period! MAXIMUM BORROWING PERIOD IS ONE WEEK. Borrowed gear must be returned before the next day 6:00 AM after reservation has ended.</b></p>
       <p>You can borrow the gear after paying the membership fee and signing the borrowing agreement. To borrow gear you need your membership card and editing permissions to the calendar. Mark all the things you borrow, your name and telephone number to the calendar.</p>
       <p>If borrowed gear is not returned on time member is given a notice and after second misuse member is banned from borrowing for one month. </p>
@@ -517,7 +517,7 @@ class GearSection extends Component {
     </Col>,
       [language.FINNISH]: <Col md={4} sm={6} xs={12} className={'gear-description'}>
         <p>Lainattavat tavarat sijaitsevat kerhohuoneellamme Tietotalon kellarissa TA006.</p>
-        <p>Pääset lainauskalenteriin <a href='https://calendar.google.com/calendar?cid=MWZnMW1ycG1mY3VnMGQ0dThqOXQxdmM0NTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'>tästä</a>!</p>
+        <p>Pääset lainauskalenteriin <a href='https://calendar.google.com/calendar?cid=Z3M4MGtlN291dmJpZWxkam1mZGtoa24yYzhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'>tästä</a>!</p>
         <p><b>Varmista, että lainaamasi tavarat eivät ole jollain muulla lainassa sinun lainausjakson aikana. MAKSIMI LAINAUSAIKA ON VIIKKO. Tavarat on palautettava viimeistä lainapäivää seuraavana aamuna klo 6:00</b></p>
         <p>Voit lainata tavaroita maksettuasi jäsenmaksun ja allekirjoitettua lainaussopimuksen.
           Lainaamiseen tarvitset jäsenkortin ja muokkausoikeudet lainauskalenteriin jotka saat kerhon hallituksen jäseneltä, yhteystiedot sivun alaosassa.
