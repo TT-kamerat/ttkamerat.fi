@@ -59,11 +59,6 @@ hr {
   font-size: 3em;
 }
 
-.img-circle {
-  border-radius: 50%;
-  width: 10em;
-}
-
 .img-rounded {
   border-radius: 10%;
   width: 14em;  
@@ -169,16 +164,11 @@ a {
   }
 }
 
-/* Extra Small Devices, Phones */
+/* Small Devices, Bigger Phones */
 @media only screen and (max-width : 560px) {
-  .img-circle {
-    border-radius: 50%;
-    width: 5em;
-  }
-
   .img-rounded {
     border-radius: 10%;
-    width: 7em;
+    width: 10em;
   }  
 
   .official {
@@ -193,6 +183,28 @@ a {
 
   .official h4 {
     font-size: 0.8em;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 350px) {
+  .img-rounded {
+    border-radius: 10%;
+    width: 7em;
+  }  
+
+  .official {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    min-height: 14em;
+  }
+
+  .official h3 {
+    font-size: 1em;
+  }
+
+  .official h4 {
+    font-size: 0.7em;
   }
 }
 
