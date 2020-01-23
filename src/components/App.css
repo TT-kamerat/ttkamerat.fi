@@ -33,6 +33,12 @@
   color: white;
 }
 
+.section-container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 hr {
   width: 5em;
   margin-top: 0em;

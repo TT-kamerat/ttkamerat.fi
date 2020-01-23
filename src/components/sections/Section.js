@@ -20,9 +20,11 @@ class Section extends Component {
   render() {
     return (
       <div id={this.props.id} className={'section '+this.sectionColor()}>
-        <center><h1>{this.props.header}</h1></center>
-        <hr/>
-        {this.props.children}
+        <div className={'section-container'}>
+          <center><h1>{this.props.header}</h1></center>
+          <hr/>
+          {this.props.children}
+        </div>
       </div>
     );
   }
