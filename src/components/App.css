@@ -64,6 +64,11 @@ hr {
   width: 10em;
 }
 
+.img-rounded {
+  border-radius: 10%;
+  width: 14em;  
+}
+
 .official {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
@@ -170,6 +175,11 @@ a {
     border-radius: 50%;
     width: 5em;
   }
+
+  .img-rounded {
+    border-radius: 10%;
+    width: 7em;
+  }  
 
   .official {
     margin-top: 1.5em;

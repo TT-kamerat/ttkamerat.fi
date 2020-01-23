@@ -2,18 +2,22 @@ import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
 
 import kaisa from '../../images/board/Kaisa.jpg';
-import mika from '../../images/board/Mika.jpg';
 import ella from '../../images/board/Ella.jpg';
 import eeli from '../../images/board/Eeli.jpg';
 import antti from '../../images/board/Antti.jpg';
 import ville from '../../images/board/Ville.jpg';
 import lauri from '../../images/board/Lauri.jpg';
-import hene from '../../images/board/Henrik.jpg';
 import aaro from '../../images/board/Aaro.jpg';
 import jan from '../../images/board/Jan.jpg';
-import jani from '../../images/board/Jani.jpg';
 import markku from '../../images/board/Markku.jpg';
-import juhis from '../../images/board/Juha_Matti.jpg';
+import juhis from '../../images/board/Juha-Matti.jpg';
+import patrik from '../../images/board/Patrik.jpg';
+import heidi from '../../images/board/Heidi.jpg';
+import petteri from '../../images/board/Petteri.jpg';
+import olli from '../../images/board/Olli.jpg';
+import anriika from '../../images/board/Anriika.jpg';
+
+
 import gdpr from '../../files/jasenrekisteriseloste.pdf';
 
 import language from '../../languages';
@@ -30,7 +34,7 @@ class BoardSection extends Component {
 
   renderOfficial(official, offset=0) {
     return <Col className={'official'} mdOffset={offset*4} smOffset={offset*3} xsOffset={offset*3} md={4} sm={6} xs={6} key={official.id}>
-    <img alt={official.name} className={'img-circle'} src={official.img}/>
+    <img alt={official.name} className={'img-rounded'} src={official.img}/>
     <h3 className="official-title">{official.title[this.props.lang]}</h3>
     <h4 className="official-title">{official.name}</h4>
     TG: @{official.nick}
@@ -68,138 +72,158 @@ class BoardSection extends Component {
 
     const officials = {
       board : [
-      {
-        id: 'ville',
-        img: ville,
-        name: 'Ville Tahvanainen',
-        nick: 'billsh',
-        title: {
-          [language.ENGLISH] : 'Chairman', 
-          [language.FINNISH] : 'Puheenjohtaja'
-        }
-      },
-      {	
-        id: 'hene',	
-        img: hene,
-        name: 'Henrik Laakkonen',	
-        nick: 'munlempinorsuonbabar',	
-        title: {	
-          [language.ENGLISH] : 'Vice Chairman & Secretary', 	
-          [language.FINNISH] : 'Varapuheenjohtaja & Sihteeri'	
-        }	
-      },      
-      {
-        id: 'ella',
-        img: ella,
-        name: 'Ella Paananen',
-        nick: 'Call_me_boss',
-        title: {
-          [language.ENGLISH] : 'Treasurer', 
-          [language.FINNISH] : 'Rahastonhoitaja'
-        }
-      },
-      {
-        id: 'aaro',
-        img: aaro,
-        name: 'Aaro Tuukkanen',
-        nick: 'rTzii',
-        title: {
-          [language.ENGLISH] : 'Photo-op Coordinator', 
-          [language.FINNISH] : 'Keikkakoordinaattori'
-        }
-      },
-      {
-        id: 'eeli',
-        img: eeli,
-        name: 'Eeli Hernesniemi',
-        nick: 'eltsu7',
-        title: {
-          [language.ENGLISH] : 'Media Official', 
-          [language.FINNISH] : 'Viestintävastaava'
-        }
-      },
-      {
-        id: 'jani',
-        img: jani,
-        name: 'Jani Oksanen',
-        nick: 'Proscribo',
-        title: {
-          [language.ENGLISH] : 'Event official', 
-          [language.FINNISH] : 'Tapahtumavastaava'
-        }
-      },
-      {
-        id: 'juhis',
-        img: juhis,
-        name: 'Juha-Matti Hakojärvi',
-        nick: 'Juhishhh',
-        title: {
-          [language.ENGLISH] : 'Business Contact', 
-          [language.FINNISH] : 'Yritysvastaava'
-        }
-      }
-    ],
-    officials : [
-      {	
-        id: 'jan',	
-        img: jan,
-        name: 'Jan Heikkilä',	
-        nick: 'hjeikkilan',	
-        title: {	
-          [language.ENGLISH] : 'Darkroom Master', 	
-          [language.FINNISH] : 'Pimiömestari'	
-        }	
-      },      
-      {
-        id: 'markku',
-        img: markku,
-        name: 'woof woof',
-        nick: 'MarkkuBot',
-        title: {
-          [language.ENGLISH] : 'Markku', 
-          [language.FINNISH] : 'Markku'
-        }
-      },
-      {
-        id: 'kaisa',
-        img: kaisa,
-        name: 'Kaisa Tolvanen',
-        nick: 'kkaitsu',
-        title: {
-          [language.ENGLISH] : 'Long in the Tooth', 
-          [language.FINNISH] : 'Vanha kähmy'
-        }
-      },
-      {
-        id: 'antti',
-        img: antti,
-        name: 'Antti Kallonen',
-        nick: 'anttimoi',
-        title: {
-          [language.ENGLISH] : 'IT-wiz', 
-          [language.FINNISH] : 'IT-velho'
-        }
-      },
-      {
-        id: 'mika',
-        img: mika,
-        name: 'Mika Kiviluoma',
-        nick: 'Kiviluoma',
-        title: {
-          [language.ENGLISH] : 'Gallery Official', 
-          [language.FINNISH] : 'Galleriavastaava'
-        }
-      },
-      {
-        id: 'lauri',
-        img: lauri,
-        name: 'Lauri Nopanen',
-        nick: 'Nopppanen',
-        title: {
-          [language.ENGLISH] : 'Gear Official', 
-          [language.FINNISH] : 'Kalustovastaava'
-        }
-      },
+        {	
+          id: 'jan',	
+          img: jan,
+          name: 'Jan Heikkilä',	
+          nick: 'hjeikkilan',	
+          title: {	
+            [language.ENGLISH] : 'Chairman', 	
+            [language.FINNISH] : 'Puheenjohtaja'	
+          }	
+        },
+        {
+          id: 'lauri',
+          img: lauri,
+          name: 'Lauri Nopanen',
+          nick: 'Nopppanen',
+          title: {
+            [language.ENGLISH] : 'Vice Chairman', 
+            [language.FINNISH] : 'Varapuheenjohtaja'
+          }
+        },        
+        {
+          id: 'patrik',
+          img: patrik,
+          name: 'Patrik Parviainen',
+          nick: 'Pheytr1x',
+          title: {
+            [language.ENGLISH] : 'Secretary', 
+            [language.FINNISH] : 'Sihteeri'
+          }
+        },    
+        {
+          id: 'ella',
+          img: ella,
+          name: 'Ella Paananen',
+          nick: 'Call_me_boss',
+          title: {
+            [language.ENGLISH] : 'Treasurer', 
+            [language.FINNISH] : 'Rahastonhoitaja'
+          }
+        },        
+        {
+          id: 'aaro',
+          img: aaro,
+          name: 'Aaro Tuukkanen',
+          nick: 'rTzii',
+          title: {
+            [language.ENGLISH] : 'Photo-op Coordinator', 
+            [language.FINNISH] : 'Keikkakoordinaattori'
+          }
+        },
+        {
+          id: 'heidi',
+          img: heidi,
+          name: 'Heidi Lillvis',
+          nick: 'heidilill',
+          title: {
+            [language.ENGLISH] : 'Media Official', 
+            [language.FINNISH] : 'Viestintävastaava'
+          }
+        }              
+      ],
+      officials : [
+        {
+          id: 'kaisa',
+          img: kaisa,
+          name: 'Kaisa Tolvanen',
+          nick: 'kkaitsu',
+          title: {
+            [language.ENGLISH] : 'Event Official', 
+            [language.FINNISH] : 'Tapahtumavastaava'
+          }
+        },
+        {
+          id: 'markku',
+          img: markku,
+          name: 'woof woof',
+          nick: 'MarkkuBot',
+          title: {
+            [language.ENGLISH] : 'Markku', 
+            [language.FINNISH] : 'Markku'
+          }
+        },        
+        {
+          id: 'petteri',
+          img: petteri,
+          name: 'Petteri Niemi',
+          nick: 'Nippis',
+          title: {
+            [language.ENGLISH] : 'Darkroom Master', 
+            [language.FINNISH] : 'Pimiömestari'
+          }
+        },        
+        {
+          id: 'olli',
+          img: olli,
+          name: 'Olli Tammenlarva',
+          nick: 'Banaani120',
+          title: {
+            [language.ENGLISH] : 'Assistant Photo-op Coordinator', 
+            [language.FINNISH] : 'Keikkakoordinaattorin apu'
+          }
+        },   
+        {
+          id: 'antti',
+          img: antti,
+          name: 'Antti Kallonen',
+          nick: 'anttimoi',
+          title: {
+            [language.ENGLISH] : 'IT-wiz', 
+            [language.FINNISH] : 'ATK-vastaava'
+          }
+        },     
+        {
+          id: 'juhis',
+          img: juhis,
+          name: 'Juha-Matti Hakojärvi',
+          nick: 'Juhishhh',
+          title: {
+            [language.ENGLISH] : 'Gear Official', 
+            [language.FINNISH] : 'Kalustovastaava'
+          }
+        },    
+        {
+          id: 'eeli',
+          img: eeli,
+          name: 'Eeli Hernesniemi',
+          nick: 'eltsu7',
+          title: {
+            [language.ENGLISH] : 'Graphic Designer / IT assistant', 
+            [language.FINNISH] : 'Graafikko / IT-apu'
+          }
+        },     
+        {
+          id: 'ville',
+          img: ville,
+          name: 'Ville Tahvanainen',
+          nick: 'billsh',
+          title: {
+            [language.ENGLISH] : 'Long in the Tooth', 
+            [language.FINNISH] : 'Vanha kähmy'
+          }
+        },                    
+        {
+          id: 'anriika',
+          img: anriika,
+          name: 'Anriika Kauppi',
+          nick: 'anriika',
+          title: {
+            [language.ENGLISH] : 'Gallery Official', 
+            [language.FINNISH] : 'Galleriavastaava'
+          }
+        }        
       ]                                                 
     }
 
