@@ -30,7 +30,7 @@
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"No test specified\"",
-    "deploy": "gatsby build && aws s3 rm s3://ttkamerat.fi --recursive && aws s3 sync public/ s3://ttkamerat.fi && aws cloudfront create-invalidation --distribution-id E7H7VKP18DKYP --paths '/index.html'"
+    "deploy": "gatsby build && aws s3 rm s3://ttkamerat.fi --recursive && aws s3 sync public/ s3://ttkamerat.fi && aws cloudfront create-invalidation --distribution-id E7H7VKP18DKYP --paths '/*'"
   },
   "devDependencies": {
     "prettier": "^1.14.2"
