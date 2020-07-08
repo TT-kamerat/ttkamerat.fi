@@ -42,7 +42,11 @@ class MembershipSection extends Component {
       </table>
       </p>
       <p>As our member club's premises and equipment (after signing the reservation agreement) are available for you. After paying the membership fee contact a board member for reclaiming your membership card. With your membership card you can prove your membership when borrowing the clubroom key. According to your will and capabilities you can participate in the improving of our activities.</p>
-      <p>Download info bulletin for new members <a href={newMember}>here!</a></p>
+      <p>We have compiled two info bulletins for our members to read:</p>
+      <ul>
+        <li><a id='1' href={newMember}>Info for a new member</a></li>
+        <li><a id='2' href={eventPhotoInfo}>Guide to event photography</a></li>
+      </ul>
       </div>,
       [language.FINNISH]: <div>
       <p>Kerhomme vuosimaksu (lukuvuosi) on 5 euroa, jonka voit maksaa tilille:<br/></p>
@@ -69,8 +73,11 @@ class MembershipSection extends Component {
       </table>
       </p>
       <p>Jäsenenä sinulla on kaikki tilamme ja kalustomme (lainaussopimuksen allekirjoitettua) käytettävissäsi. Jäsenmaksun maksettuasi ota yhteyttä johonkin hallituksen jäseneen, sovi hänen kanssaan milloin voit noutaa jäsenkortin, jolla voit todistaa jäsenyytesi pimiön avainta lainatessa. Halutessasi (ja suotavasti) voit myös omalla aktiivisuudellasi olla mukana kehittämässä toimintaamme.</p>
-      <p>Lataa <a href={newMember}>tästä</a> uuden jäsenen tietopaketti!</p>
-      <p>Lataa <a href={eventPhotoInfo}>tästä</a> kerholaisen opas tapahtumakuvaukseen.</p>
+      <p>Olemme koostaneet kaksi tietopakettia jäsenten luettavaksi: </p>
+      <ul>
+        <li><a id='1' href={newMember}>Uuden jäsenen tietopaketti</a></li>
+        <li><a id='2' href={eventPhotoInfo}>Kerholaisen opas tapahtumakuvaukseen</a></li>
+      </ul>
       </div>
     }
 
