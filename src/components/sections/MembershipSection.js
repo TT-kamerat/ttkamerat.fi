@@ -5,6 +5,7 @@ import language from '../../languages';
 import Section from './Section';
 
 import newMember from '../../files/uusijasen.pdf';
+import eventPhotoInfo from '../../files/opas_tapahtumakuvaukseen.pdf';
 
 class MembershipSection extends Component {
   render() {
@@ -69,6 +70,7 @@ class MembershipSection extends Component {
       </p>
       <p>Jäsenenä sinulla on kaikki tilamme ja kalustomme (lainaussopimuksen allekirjoitettua) käytettävissäsi. Jäsenmaksun maksettuasi ota yhteyttä johonkin hallituksen jäseneen, sovi hänen kanssaan milloin voit noutaa jäsenkortin, jolla voit todistaa jäsenyytesi pimiön avainta lainatessa. Halutessasi (ja suotavasti) voit myös omalla aktiivisuudellasi olla mukana kehittämässä toimintaamme.</p>
       <p>Lataa <a href={newMember}>tästä</a> uuden jäsenen tietopaketti!</p>
+      <p>Lataa <a href={eventPhotoInfo}>tästä</a> kerholaisen opas tapahtumakuvaukseen.</p>
       </div>
     }
 
