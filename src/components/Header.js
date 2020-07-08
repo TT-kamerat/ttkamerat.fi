@@ -9,7 +9,7 @@ class Header extends Component {
         <h1>Tampereen Teekkarikamerat</h1>
         <h3>Kadonneiden muistikuvien löytötavaratoimisto</h3>
         <hr/>
-        <p>Tampereen Teekkarikamerat on 5.12.1968 perustettu kerho kaikille valokuvauksesta ja siihen liittyvästä toiminnasta kiinnostuneille TREY:n jäsenille.</p>
+        <p>Tampereen Teekkarikamerat on 5.12.1968 perustettu kerho kaikille valokuvauksesta ja siihen liittyvästä toiminnasta kiinnostuneille TREYn jäsenille.</p>
       </div>,
       [language.ENGLISH] : <div>
       <h1>Tampereen Teekkarikamerat</h1>
