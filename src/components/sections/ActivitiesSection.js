@@ -20,8 +20,8 @@ class ActivitiesSection extends Component {
           [language.FINNISH]: 'Tiedotus'
         },
         content : {
-          [language.ENGLISH]: <span>Subscribe to official our mail list <a href='https://listmail.tut.fi/mailman/listinfo/tt-kamerat'>here.</a> Same info is also sent to our <a href='https://ttkamerat.fi/tg-info'>announcement channel</a> in Telegram.</span>,
-          [language.FINNISH]: <span>Kerhon viralliselle tiedotuskanavalle voit liittyä <a href='https://listmail.tut.fi/mailman/listinfo/tt-kamerat'>tästä.</a> Samat tiedot julkaistaan myös meidän <a href='https://ttkamerat.fi/tg-info'>tiedotuskanavalle</a> Telegramissa.</span>
+          [language.ENGLISH]: <span>Subscribe to official our mail list <a href='https://lists.tuni.fi/mailman/listinfo/tt-kamerat'>here.</a> Same info is also sent to our <a href='https://ttkamerat.fi/tg-info'>announcement channel</a> in Telegram.</span>,
+          [language.FINNISH]: <span>Kerhon viralliselle tiedotuskanavalle voit liittyä <a href='https://lists.tuni.fi/mailman/listinfo/tt-kamerat'>tästä.</a> Samat tiedot julkaistaan myös meidän <a href='https://ttkamerat.fi/tg-info'>tiedotuskanavalle</a> Telegramissa.</span>
         },
         glyph: 'envelope'
       },
