@@ -5,7 +5,7 @@
   "author": "Antti Kallonen <kallonen.antti@gmail.com>",
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "gatsby": "^2.0.19",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.0.15",
     "gatsby-plugin-google-analytics": "^2.0.7",
     "gatsby-plugin-manifest": "^2.0.5",
